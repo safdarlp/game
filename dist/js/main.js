@@ -4,7 +4,7 @@ var game = (function(){
   
     var player = {
       x:0,
-      y:475,
+      y:400,
       h: 25,
       w: 25,
       fill: '#fff',
@@ -92,6 +92,7 @@ var game = (function(){
               gameOver = true;
               cancelAnimationFrame(animation);
               clearInterval(spawner);
+              alert("Game Over! Click refresh to start the game again!");
             }
   
           }else{
