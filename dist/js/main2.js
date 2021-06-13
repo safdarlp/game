@@ -1,5 +1,5 @@
 var game = (function(){
-    var canvas = document.getElementById('canvas');
+    var canvas = document.getElementById('canvas2');
     var ctx = canvas.getContext('2d');
   
     var player = {
@@ -9,7 +9,7 @@ var game = (function(){
       w: 25,
       fill: '#fff',
       dir: 'right',
-      speed: 5
+      speed: 8
     }
   
     var spawn = {
@@ -48,7 +48,7 @@ var game = (function(){
           h:spawn.h,
           w:spawn.w,
           fill:spawn.fill,
-          speed:5,
+          speed:10,
         }
   
       },400);
